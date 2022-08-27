@@ -11,7 +11,7 @@ request.onload = function() {
         console.log(countries);
 
         for(country of countries){
-            const {flags} = country;
-            console.log(flags);
+            const {flag} = country;
+            console.log(flag);
         }
 }
